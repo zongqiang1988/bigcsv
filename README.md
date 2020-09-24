@@ -3,7 +3,7 @@
 
 # Example
 
-//```php
+```php
 $db_config = [
     'host' => '127.0.0.1',
     'user' => 'root',
@@ -20,4 +20,4 @@ $sql = 'select order_number, order_status from erp_ordersale';
 
 $obj = \bigcsv\BigCSV::getinstance($db_config);
 $obj->download($sql, $csv_header, $format);
-//```
+```
