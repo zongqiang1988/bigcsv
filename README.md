@@ -1,5 +1,5 @@
 # bigcsv
-突破PHP内存限制，从MySQL导出csv文件
+突破PHP内存限制，从MySQL导出数据生成csv文件
 
 # Example
 
