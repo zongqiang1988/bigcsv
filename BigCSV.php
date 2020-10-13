@@ -54,7 +54,6 @@ class BigCSV
 
         while ($res = mysqli_fetch_assoc($resource)) {
 
-            ob_start();
             $nums = count($res);
             $str = '';
 
@@ -72,7 +71,6 @@ class BigCSV
             }
 
             echo $str;
-            ob_end_flush();
             flush();
         }
 
